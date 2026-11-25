@@ -1,0 +1,14 @@
+# Files git must never upload to GitHub
+
+# your API key and settings
+.env
+
+# the local database (accounts, grades) and its login secret
+backend/data/
+
+# installed Python packages (recreated with: pip install -r backend/requirements.txt)
+.venv/
+
+# Python's temporary files
+__pycache__/
+.pytest_cache/
